@@ -1,8 +1,8 @@
 # Graphs
 
-## Graphs are visual representations of the connections between objects
+Graphs are visual representations of the connections between objects
 
-Examples of graph applications
+## Examples of graph applications
 
 Application | Item | Connection
 ----------- | ---- | ----------
@@ -16,6 +16,6 @@ Social Media | Person | Friendship
 * **Degree of Vertex** - The number of edges on that vertex(node).
 * **Weight** - The values on the edges. Can signify various things depending on the context.
 
-Example of graphs:
+### Examples of graphs
 
 * **Undirected Graph** - graphs that do not have a direction between vertices. The edge implies a mutual connection between the edges without a direction.
