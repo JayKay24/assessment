@@ -9,3 +9,7 @@ The parent is always greater than any of its children.
 ## Min heap
 
 The parent is always smaller than any of its children.
+
+### Use cases
+
+Heaps(Binary Heaps) are best used whenever you must frequently work with the maximum or minimum item of a set.
