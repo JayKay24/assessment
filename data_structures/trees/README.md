@@ -7,6 +7,11 @@ A general tree data structure is composed of nodes with children nodes. It emplo
 * Nodes that do not have any children are **leaf nodes**
 * A trees **height** is the level of the deepest node in the tree.
 
-## Use cases
+## Variations of trees data structures:
+
+1. [**Binary Tree**](./binary_tree/README.md)
+2. [**Binary Search Tree**](./binary_search_tree/README.md) 
+
+### Use cases
 
 Trees are especially useful for hierarchical data e.g file directory structure.
