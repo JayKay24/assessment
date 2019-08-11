@@ -6,9 +6,7 @@ A program that follows this principle has classes that perform just a few relate
 
 The term **cohesion** refers to a measure of the relatedness of features within a class or module. If features are unrelated, the class has low cohesion and is likely to change for many different reasons. High cohesion results from the proper application of the SRP.
 
-## Examples
-
-### SRP violated
+## SRP violated
 
 ```Typescript
 // Typescript
@@ -32,7 +30,7 @@ const movie = new Movie('The Internship', 2013);
 movie.save();
 ```
 
-### SRP enforced
+## SRP enforced
 
 To fix this class before it grows into a bigger problem, the two concerns can be divided between the Movie class that takes care of movie-related behavior and a MovieRepository that is responsible for storing the data.
 

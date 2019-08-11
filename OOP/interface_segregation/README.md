@@ -6,6 +6,19 @@ Each interface would describe an independent grouping of behavior, allowing code
 
 The following example demonstrates the `ISP` by grouping methods into more specific interfaces that describe a number of contracts that could be implemented individually by a simple printer or simple copier, as well as by a super printer that can do everything.
 
+## ISP violated
+
+```Typescript
+// Typescript
+interface Printer {
+  copyDocument();
+  printDocument(document: Document);
+  stapleDocument(document: Document, tray: number);
+}
+```
+
+## ISP enforced
+
 ``` Typescript
 // Typescript
 interface Printer {

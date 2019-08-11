@@ -18,4 +18,4 @@ The five `SOLID` principles are:
 
 4. [**Interface segregation principle**](./interface_segregation/README.md) — many small, client-specific interfaces are better than one general-purpose interface.
 
-5. [**Dependency inversion principle**](./dependency_inversion/README.md_) — depends on abstractions, not concretions.
+5. [**Dependency inversion principle**](./dependency_inversion/README.md) — depends on abstractions, not concretions.
