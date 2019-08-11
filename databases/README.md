@@ -10,5 +10,5 @@ A special piece of software for managing databases. The DBMS organizes and store
 
 1. [**Relational**](./relational/README.md)
 2. [**Non-relational**](./non_relational/README.md)
-3. [**Geographical**](./gepgraphical/README.md)
+3. [**Spatial**](./spatial/README.md)
 4. [**Distributed**](./distributed/README.md)
