@@ -13,7 +13,7 @@ The essence of this is that if you substitute a subclass for a superclass, the c
 ```Typescript
 // Typescript
 class ApplicationError implements Error {
-    constructor(public name: string, public message: string) {}
+  constructor(public name: string, public message: string) {}
 }
 
 throw new ApplicationError('Example Error', 'An error has occurred');

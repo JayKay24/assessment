@@ -7,17 +7,17 @@ The following example shows a reward card point calculation class named `RewardP
 ```Typescript
 // Typescript
 class RewardPointsCalculator {
-    getPoints(transactionValue: number) {
-        // 4 points per whole dollar spent
-        return Math.floor(transactionValue) * 4;
-    }
+  getPoints(transactionValue: number) {
+    // 4 points per whole dollar spent
+    return Math.floor(transactionValue) * 4;
+  }
 }
 
 class DoublePointsCalculator extends RewardPointsCalculator {
-    getPoints(transactionValue: number) {
-        const standardPoints = super.getPoints(transactionValue);
-        return standardPoints * 2;
-    }
+  getPoints(transactionValue: number) {
+    const standardPoints = super.getPoints(transactionValue);
+    return standardPoints * 2;
+  }
 }
 const pointsCalculator = new DoublePointsCalculator();
 alert(pointsCalculator.getPoints(100.99)); // 800

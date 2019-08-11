@@ -13,18 +13,18 @@ The term **cohesion** refers to a measure of the relatedness of features within 
 ```Typescript
 // Typescript
 class Movie {
-    private db: DataBase;
-    constructor(private title: string, private year: number) {
-        this.db = DataBase.connect('user:pw@mydb', ['movies']);
-    }
+  private db: DataBase;
+  constructor(private title: string, private year: number) {
+    this.db = DataBase.connect('user:pw@mydb', ['movies']);
+  }
 
-    getTitle() {
-        return this.title + ' (' + this.year + ')';
-    }
+  getTitle() {
+    return this.title + ' (' + this.year + ')';
+  }
 
-    save() {
-        this.db.movies.save({ title: this.title, year: this.year });
-    }
+  save() {
+    this.db.movies.save({ title: this.title, year: this.year });
+  }
 }
 
 // Movie
@@ -39,25 +39,24 @@ To fix this class before it grows into a bigger problem, the two concerns can be
 ```Typescript
 // Typescript
 class Movie {
-    constructor(private title: string, private year: number) {
-    }
+  constructor(private title: string, private year: number) {}
 
-    getTitle() {
-        return this.title + ' (' + this.year + ')';
-    }
+  getTitle() {
+    return this.title + ' (' + this.year + ')';
+  }
 }
 
 
 class MovieRepository {
-    private db: DataBase;
+  private db: DataBase;
 
-    constructor() {
-        this.db = DataBase.connect('user:pw@mydb', ['movies']);
-    }
+  constructor() {
+    this.db = DataBase.connect('user:pw@mydb', ['movies']);
+  }
 
-    save(movie: Movie) {
-        this.db.movies.save(JSON.stringify(movie));
-    }
+  save(movie: Movie) {
+    this.db.movies.save(JSON.stringify(movie));
+  }
 }
 // Movie
 const movie = new Movie('The Internship', 2013);
