@@ -1,11 +1,11 @@
 # Data Structures
 
-Data Structures describe how data is to be organized and accessed in the computers memory. The provide ways for implementing Abstract Data Types in data-handling modules.
+Data Structures describe how data is to be organized and accessed in the computers memory. They provide ways for implementing Abstract Data Types in data-handling modules.
 
 Examples of Data Structures include:
 
 1. [**Graphs**](./graphs/README.md)
-2. [**Heap**](./heaps/README.md)
+2. [**Heaps**](./heaps/README.md)
 3. [**Trees**](./trees/README.md)
 4. **Array** - consists of finding a sequential space in the computer memory and writing your items sequentially in that space, marking the end of the sequence with a special **NULL** token.
 
