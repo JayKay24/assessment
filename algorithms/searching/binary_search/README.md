@@ -1,6 +1,6 @@
 # Binary Search
 
-It's a searching algorithm that works on sorted data. Unlike the [**linear search**](../linear_search/README.md) algorithm in which every element of the array is checked, binary searches can check the middle value to see whether the desired value os greater or smaller than it.
+It's a searching algorithm that works on sorted data. Unlike the [**linear search**](../linear_search/README.md) algorithm in which every element of the array is checked, binary searches can check the middle value to see whether the desired value is greater or smaller than it.
 
 If the desired value is smaller, this algorithm can search through the smaller parts, or it can search through the bigger parts if the desired value is bigger.
 

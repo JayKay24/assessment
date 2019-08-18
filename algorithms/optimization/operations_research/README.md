@@ -1,6 +1,6 @@
 # Operations Research
 
-Operations Research is a practice that involves defining an objective to maximize and minimize. It can help maximize objectives like yield, profit or performance; and minimize objectives like loss, risk or cost.
+Operations Research is a practice that involves defining an objective to maximize or minimize. It can help maximize objectives like yield, profit or performance; and minimize objectives like loss, risk or cost.
 
 ## History
 
