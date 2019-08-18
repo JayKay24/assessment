@@ -2,6 +2,8 @@
 
 Graphs are visual representations of the connections between objects
 
+![graphs](./graphs.png)
+
 ## Examples of graph applications
 
 Application | Item | Connection
