@@ -6,7 +6,9 @@
 
 **Pre-Order Traversal** visits nodes in the following order: root(the current node), left, right.
 
-**In-Order Traversal** visits nodes in the following order: left, root(current node), right.
+**In-Order Traversal** visits nodes in the following order: left, root(the current node), right.
+
+**Post-Order Traversal** visits nodes in the following order: left, right, root(the current node).
 
 ### B-Tree
 
