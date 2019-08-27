@@ -4,7 +4,9 @@
 
 * A binary tree always has a root node, which is initialized to null before any element is inserted
 
-Pre-Order Traversal visits nodes in the following order: root(the current node), left, right.
+**Pre-Order Traversal** visits nodes in the following order: root(the current node), left, right.
+
+**In-Order Traversal** visits nodes in the following order: left, root(current node), right.
 
 ### B-Tree
 

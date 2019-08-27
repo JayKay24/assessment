@@ -6,8 +6,17 @@ class BinaryTree {
     if (!node) {
       return;
     }
-    this.traversePreOrder(node.left);
     console.log(node.value)
+    this.traversePreOrder(node.left);
     this.traversePreOrder(node.right);
+  }
+
+  public traverseInOrder(node: any) {
+    if (!node) {
+      return;
+    }
+    this.traverseInOrder(node.left);
+    console.log(node.value);
+    this.traverseInOrder(node.right);
   }
 }
